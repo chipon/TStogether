@@ -1,0 +1,14 @@
+#ifndef BUBBLELTIPBUTTON_H
+#define BUBBLELTIPBUTTON_H
+#include <QToolButton>
+#define LABEL_WIDTH 20
+#define BORDER_WIDTH 5
+
+class BubblelTipButton : public QToolButton
+{
+public:
+    BubblelTipButton();
+    virtual void paintEvent(QPaintEvent *event);
+};
+
+#endif // BUBBLELTIPBUTTON_H
